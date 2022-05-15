@@ -1,0 +1,35 @@
+{
+  "name": "frontend-challenge-reactjs",
+  "version": "0.1.0",
+  "description": "Frontend challange reactjs",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "generate": "next build && next export",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaborsari/frontend-challenge-reactjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaborsari/frontend-challenge-reactjs/issues"
+  },
+  "homepage": "https://github.com/rafaborsari/frontend-challenge-reactjs#readme",
+  "dependencies": {
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
+  },
+  "devDependencies": {
+    "eslint": "8.15.0",
+    "eslint-auto-fix": "^1.0.4",
+    "eslint-config-next": "12.1.6"
+  }
+}
