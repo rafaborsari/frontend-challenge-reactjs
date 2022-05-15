@@ -1,8 +1,7 @@
-
 # Frontend | Desafio Técnico
 
 ## Sobre a oportunidade
-  Temos vagas em aberto para diferentes níveis de conhecimento e achamos que um desafio poderá nos ajudar a te conhecer melhor..
+  Temos vagas em aberto para diferentes níveis de conhecimento e achamos que um desafio poderá nos ajudar a te conhecer melhor.
   Fique a vontade para implementar o que você conhece ou o que entende como necesário para o projeto mas desde que siga nossos requisitos.
     
 ## Desafio Técnico
