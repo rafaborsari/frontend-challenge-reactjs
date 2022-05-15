@@ -5,6 +5,9 @@
   "private": true,
   "main": "index.js",
   "scripts": {
+    "commit": "git add . && git commit && git push origin dev",
+    "staging": "git checkout main && git merge dev && git push origin main && git checkout dev",
+    "deploy": "git checkout production && git merge main && git push origin production && git checkout dev",
     "dev": "next dev",
     "build": "next build",
     "generate": "next build && next export",
