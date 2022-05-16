@@ -1,4 +1,15 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import { styled } from '@mui/material/styles';
+import Button from '@mui/material/Button';
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
+import Paper from '@mui/material/Paper';
+import Grid from '@mui/material/Grid';
+
+const Item = styled(Paper)(({ theme }) => ({
+	"background-color": '#FFF'
+}));
+
 
 export default function Films() {
 
@@ -10,7 +21,24 @@ export default function Films() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<main>
-				<h1>teste de filme</h1>
+			<Container  maxWidth="sm">
+				<Grid container spacing={2}>
+				  <Grid item xs={8}>
+				  	<Item><h3>teste</h3></Item>				    
+				  </Grid>
+				  <Grid item xs={4}>
+				  	<Item><h3>teste</h3></Item>				    
+				  </Grid>
+				  <Grid item xs={4}>
+				    <Item><h3>teste</h3></Item>
+				  </Grid>
+				  <Grid item xs={8}>
+				    <Item><h3>teste</h3></Item>
+				  </Grid>
+				</Grid>			
+			</Container>
+
+
 			</main>					
 		</div>
 	)	

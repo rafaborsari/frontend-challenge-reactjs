@@ -26,6 +26,13 @@
   },
   "homepage": "https://github.com/rafaborsari/frontend-challenge-reactjs#readme",
   "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/css": "^11.9.0",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0"
